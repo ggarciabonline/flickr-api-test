@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flickr Search</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		<div class="header-inner">
+			<h1>Gallery</h1>
+			<div class="search-wrapper">
+				<input class="search-box" placeholder="Search" type="text"><i id="search" class=" fa fa-search"></i>
+			</div>
+		</div>
+	</div>
+
+	<div class="wrapper">
+		<div class="wrapper-inner">
+			<div id="carousel-img"></div>
+			<div class="heading-owner">
+				<h4 id="owner"></h4>
+				<span class="social tooltips">Share
+					<span>
+						<i class="fa fa-facebook-official"></i>
+						<i class="fa fa-twitter"></i>
+						<i class="fa fa-google-plus-square"></i>
+					</span>
+				</span>
+			</div>
+			<div id="images-box"></div>
+			
+			<div class="pages">
+				<ul class="pagination"></ul>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/flickr.js"></script>
+</body>
+</html>
